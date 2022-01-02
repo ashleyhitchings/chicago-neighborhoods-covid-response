@@ -52,8 +52,8 @@ Since weekly cases tend to fluctuate significantly, I used  linear regressions t
 In terms of mortality, neighborhoods with proportionally greater Asian and Hispanic populations tended to witness higher cumulative death rates, whereas the reverse was true of areas with a greater proportion of Black and white residents.
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/72634325/147865610-8ca00ebb-cc30-4138-8b1e-dd767b121326.png" height="240">
-  <img src="https://user-images.githubusercontent.com/72634325/147865615-66c49f20-4ee7-4b04-9a9b-6ac24ea12476.png" height="240">
+  <img src="https://user-images.githubusercontent.com/72634325/147865610-8ca00ebb-cc30-4138-8b1e-dd767b121326.png" height="200">
+  <img src="https://user-images.githubusercontent.com/72634325/147865615-66c49f20-4ee7-4b04-9a9b-6ac24ea12476.png" height="200">
 </p>
 
 #### Impact of Age
