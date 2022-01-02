@@ -20,16 +20,16 @@ My data consisted of 3 datasets and qualitative geospatial information drawn fro
 Examining geospatial data for cumulative Covid-19 case rates per 100,000 people, which controls for absolute population differences across regions, the data reveals that the Far North Side, West Side, Southwest Side, South Side have generally experienced the highest cumulative death rates. A similar pattern emerged for cumulative case rates, with the Far North Side, West Side, and South Side having relatively high rates for cumulative Covid-19 cases; notably, however, Central also saw high rates of Covid-19 infections, whereas the South Side had the lowest cumulative case rates across Chicago. 
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/72634325/147865341-649dd611-fdf3-49a3-8de0-5835075c7987.png" height="270" />
-  <img src="https://user-images.githubusercontent.com/72634325/147865345-1b8b7d0a-4aea-4da5-b461-7c0794148641.png" height="270" /> 
-  <img src="https://user-images.githubusercontent.com/72634325/147865346-ee17fff5-f7ae-4563-9192-f0978e6e6cbb.png" height="270" />
+  <img src="https://user-images.githubusercontent.com/72634325/147865341-649dd611-fdf3-49a3-8de0-5835075c7987.png" height="200" />
+  <img src="https://user-images.githubusercontent.com/72634325/147865345-1b8b7d0a-4aea-4da5-b461-7c0794148641.png" height="200" /> 
+  <img src="https://user-images.githubusercontent.com/72634325/147865346-ee17fff5-f7ae-4563-9192-f0978e6e6cbb.png" height="200" />
 </p>
 
 Analyzing time-series data (where Week 0 corresponds to March 1, 2020) for the nine geographic regions around Chicago reveals a similar trend, where the Southwest Side, West Side, and Far North Side have the highest rates of Covid-19 infection. However, it is interesting to note that the next highest rates for weekly cases occur in the Northwest and North Sides, which had low cumulative death rates. The opposite trend was true for neighborhoods in the South Side, where the rate of weekly cases was low over the last year,  yet the cumulative mortality rates were high.
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/72634325/147865481-50e89c56-7be5-4b41-b514-f3450c074730.png" height="300">
-  <img src="https://user-images.githubusercontent.com/72634325/147865482-9c910213-03c8-4dd4-bdee-8cfafa2a0bd5.png" height="300">
+  <img src="https://user-images.githubusercontent.com/72634325/147865481-50e89c56-7be5-4b41-b514-f3450c074730.png" height="200">
+  <img src="https://user-images.githubusercontent.com/72634325/147865482-9c910213-03c8-4dd4-bdee-8cfafa2a0bd5.png" height="200">
 </p>
 
 ### How do socioeconomic factors vary with Covid-19 infections and mortality across different areas of Chicago?
@@ -38,15 +38,15 @@ Analyzing time-series data (where Week 0 corresponds to March 1, 2020) for the n
 The racial composition of various neighborhoods in Chicago vary widely by geography; more than 55% of residents in the Central, Far North, North, and of the city were white, with the predominant minority groups being Hispanic and Asian. Proportionally, the greatest concentration of Hispanic residents lived in the Northwest, Southwest, and West sides of Chicago. Meanwhile, the southern sides of the city had the most African-American residents, with the majority and plurality of residents in the Far Southeast Side, South Side, and Far Southwest Side identifying as Black. 
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/72634325/147865687-ee46acd6-b05a-4568-8543-82e577b8767a.png" height="240">
-  <img src="https://user-images.githubusercontent.com/72634325/147865688-c8ccfb50-889e-4b05-a2b6-a026af0ba08e.png" height="240">
+  <img src="https://user-images.githubusercontent.com/72634325/147865687-ee46acd6-b05a-4568-8543-82e577b8767a.png" height="180">
+  <img src="https://user-images.githubusercontent.com/72634325/147865688-c8ccfb50-889e-4b05-a2b6-a026af0ba08e.png" height="180">
 </p>  
 
 Since weekly cases tend to fluctuate significantly, I used  linear regressions to analyze the relationship between race and cumulative cases. The results reveal that regions with greater proportions of White, Asian, and Hispanic residents tend to have higher cumulative Covid-19 cases, whereas a greater proportion of Black residents was associated with fewer cumulative cases.
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/72634325/147865616-b043ca3f-836e-4c4b-a71a-89e0f15ab7ad.png" height="240">
-  <img src="https://user-images.githubusercontent.com/72634325/147865617-477d8a03-6216-47b1-a602-8c9bfd7280a5.png" height="240">
+  <img src="https://user-images.githubusercontent.com/72634325/147865616-b043ca3f-836e-4c4b-a71a-89e0f15ab7ad.png" height="180">
+  <img src="https://user-images.githubusercontent.com/72634325/147865617-477d8a03-6216-47b1-a602-8c9bfd7280a5.png" height="180">
 </p>  
 
 In terms of mortality, neighborhoods with proportionally greater Asian and Hispanic populations tended to witness higher cumulative death rates, whereas the reverse was true of areas with a greater proportion of Black and white residents.
@@ -60,31 +60,31 @@ In terms of mortality, neighborhoods with proportionally greater Asian and Hispa
 Overall, the southern regions of the city tend to have the greatest proportion of older residents, with the Far Southwest Side, Far Southeast Side, and South Side having the highest proportion of residents who are older than 65  at 16%, 15.5%, and 14% respectively.  These also tended to be the areas with the greatest proportion of adolescents, with the Far Southeast Side, Far Southwest Side, West Side, and Southwest Side all having over 25% of residents under 19 years of age. Regions with the greatest concentration of young adults aged 20-34 were Central, the North Side, and the West Side. 
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/72634325/147865748-877fb163-8b57-4d7d-ab33-1d2e0e92b9f3.png" height="240">
-  <img src="https://user-images.githubusercontent.com/72634325/147865750-47955fb5-dcc0-4b34-a420-dc9e684f2209.png" height="240">
+  <img src="https://user-images.githubusercontent.com/72634325/147865748-877fb163-8b57-4d7d-ab33-1d2e0e92b9f3.png" height="180">
+  <img src="https://user-images.githubusercontent.com/72634325/147865750-47955fb5-dcc0-4b34-a420-dc9e684f2209.png" height="180">
 </p>
 
 Using regressions to assess the relationship between the proportion of each age group and the cumulate case rates, I found that neighborhoods with a larger percentage of older residents—those 50 and older—were those with the lowest cumulative infection rates, as indicated by the negative slopes (Figure 15). On the other hand, having a greater proportion of younger residents—those under 50—was positively correlated with greater Covid-19 infection rates (Figure 14). Additionally, the regression output table for cumulative death rate versus age proportion shows that regions with more 50+ and 20-34 year-old residents tended to also have lower mortality rates, with the opposite trend true for adolescents and 35-49 year-olds (Figure 16).
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/72634325/147865753-68c42669-7f28-4839-8551-ff0f02458e77.png" height="240">
-  <img src="https://user-images.githubusercontent.com/72634325/147865754-b9bbfc35-a848-414d-b2d2-720129fa1b13.png" height="240">
+  <img src="https://user-images.githubusercontent.com/72634325/147865753-68c42669-7f28-4839-8551-ff0f02458e77.png" height="180">
+  <img src="https://user-images.githubusercontent.com/72634325/147865754-b9bbfc35-a848-414d-b2d2-720129fa1b13.png" height="180">
 </p>
 
 #### Impact of Socioeconomic Status
 Across the city of Chicago, the South Side, Far Southeast Side, West Side, and Far North Side are those with the greatest proportions of residents who earn under $50,000 each year, at 61.9%, 57.8%, 51.9%, and 43.8% respectively. The most affluent neighborhoods were located in Central and the North Side, with 60% and 48.8% of residents earning upwards of $100,000 each year. 
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/72634325/147865915-a7eb9980-84ed-4eb8-a1e3-43bee02a983c.png" height="300">
-  <img src="https://user-images.githubusercontent.com/72634325/147865918-bad965bc-285a-474f-ac27-edf8616a11e1.png" height="300">
+  <img src="https://user-images.githubusercontent.com/72634325/147865915-a7eb9980-84ed-4eb8-a1e3-43bee02a983c.png" height="200">
+  <img src="https://user-images.githubusercontent.com/72634325/147865918-bad965bc-285a-474f-ac27-edf8616a11e1.png" height="200">
 </p>
 
 
 After conducting simple linear regressions, I discovered having a higher proportion of both low and high income brackets was slightly positively associated with higher Covid-19 infection rates across Chicago’s nine regions (Figure 19). In contrast, cumulative death rates were highest in neighborhoods with greater proportions of residents who earned under $50,000 each year, and areas with more affluent residents were those with lower mortality rates.
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/72634325/147865937-96338c3a-95dc-4afe-9399-10eded24d305.png" height="240">
-  <img src="https://user-images.githubusercontent.com/72634325/147865939-b16d4c5c-b1f0-480d-9790-90f18e57315b.png" height="240">
+  <img src="https://user-images.githubusercontent.com/72634325/147865937-96338c3a-95dc-4afe-9399-10eded24d305.png" height="180">
+  <img src="https://user-images.githubusercontent.com/72634325/147865939-b16d4c5c-b1f0-480d-9790-90f18e57315b.png" height="180">
 </p>
 
 ### What are the socioeconomic and geographic determinants of the vaccination administration?
@@ -92,9 +92,9 @@ After conducting simple linear regressions, I discovered having a higher proport
 Across Chicago, the greatest percent of residents have been vaccinated in Central, the North Side, and the Far North Side. These geospatial patterns hold when measuring both cumulative doses and first doses. From comparing vaccination rates to prior demographic analysis, the data illuminates that these areas have the top 3 highest proportions of white residents, at between 55 to 70 percent, have relatively low senior populations but a high density of millennials, and are the three most affluent areas in the city of Chicago, with the highest rates of residents earning over $100,000 annually—results corroborated by the figures majority dominant demographics in each region. The areas with the lowest percent of vaccinated residents are the Far Southeast Side, Southwest Side, and Northwest Side, which have a plurality of residents who are Black or Hispanic, earn under $50,000 a year, and high relative percentages of residents in their 50’s and older.
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/72634325/147865978-d7a66772-525b-4fc2-a5c8-daa7c2f88fc1.png" height="300">
-  <img src="https://user-images.githubusercontent.com/72634325/147865981-95971ca4-7ccc-4ff9-9976-0c8c2ad08e3a.png" height="300">
-  <img src="https://user-images.githubusercontent.com/72634325/147865986-547f6112-aad2-4517-94a6-a422212fa696.png" height="300">
+  <img src="https://user-images.githubusercontent.com/72634325/147865978-d7a66772-525b-4fc2-a5c8-daa7c2f88fc1.png" height="240">
+  <img src="https://user-images.githubusercontent.com/72634325/147865981-95971ca4-7ccc-4ff9-9976-0c8c2ad08e3a.png" height="240">
+  <img src="https://user-images.githubusercontent.com/72634325/147865986-547f6112-aad2-4517-94a6-a422212fa696.png" height="240">
 </p>
 
 ### Takeaways and Implications
